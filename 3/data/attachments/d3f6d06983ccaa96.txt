@@ -1,0 +1,3 @@
+Geocode API Coordinates for Patio de Gale, Praça do Comércio, Lisbon, Portugal: -9.136459, 38.707553
+Geosearch API Coordinates for Patio de Gale, Praça do Comércio, Lisbon, Portugal: -9.136459, 38.707553
+Coordinates match for Patio de Gale, Praça do Comércio, Lisbon, Portugal: Geocode API (-9.136459, 38.707553),                 Geosearch API (-9.136459, 38.707553)
