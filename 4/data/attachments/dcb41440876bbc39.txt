@@ -1,0 +1,3 @@
+Geocode API Coordinates for Первое место приземления пришельцев: -80.479797, 25.462117
+Geosearch API Coordinates for Первое место приземления пришельцев: -80.479797, 25.462117
+Coordinates match for Первое место приземления пришельцев: Geocode API (-80.479797, 25.462117),                 Geosearch API (-80.479797, 25.462117)

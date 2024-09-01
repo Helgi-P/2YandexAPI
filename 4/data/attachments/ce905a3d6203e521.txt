@@ -1,0 +1,3 @@
+Geocode API Coordinates for Мультивселенная №;%*: 85.570765, 27.654209
+Geosearch API Coordinates for Мультивселенная №;%*: 85.570765, 27.654209
+Coordinates match for Мультивселенная №;%*: Geocode API (85.570765, 27.654209),                 Geosearch API (85.570765, 27.654209)

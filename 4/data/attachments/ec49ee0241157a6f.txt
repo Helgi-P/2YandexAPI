@@ -1,0 +1,13 @@
+
+Testing Geosearch API with valid key for address: Patio de Gale, Praça do Comércio, Lisbon, Portugal
+Request URL: https://search-maps.yandex.ru/v1
+Request Params: {'apikey': '99d471d5-cb8f-4d4e-b915-6fb3717e217b', 'text': 'Patio de Gale, Praça do Comércio, Lisbon, Portugal', 'lang': 'ru_RU', 'type': 'geo', 'results': '1'}
+Response Status Code: 200
+Response Content: {"type":"FeatureCollection","properties":{"ResponseMetaData":{"SearchResponse":{"found":1,"display":"single","boundedBy":[[-9.137456,38.70675],[-9.135462,38.708348]]},"SearchRequest":{"request":"Patio de Gale, Praça do Comércio, Lisbon, Portugal","skip":0,"results":1,"boundedBy":[[37.048427,55.43644866],[38.175903,56.04690174]]}}},"features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[-9.136459,38.707553]},"properties":{"name":"Торговая площадь","description":"приход Санта-Мария-Майор, Лиссабон, Португалия","boundedBy":[[-9.137456,38.70675],[-9.135462,38.708348]],"uri":"ymapsbm1://geo?data=CgoxNTIwNjM5Nzg3EkJQb3J0dWdhbCwgTGlzYm9hLCBGcmVndWVzaWEgU2FudGEgTWFyaWEgTWFpb3IsIFByYcOnYSBkbyBDb23DqXJjaW8iCg3wLhLBFYjUGkI,","GeocoderMetaData":{"precision":"street","text":"Португалия, Лиссабон, приход Санта-Мария-Майор, Торговая площадь","kind":"street"}}}]}
+
+Testing Geosearch API with invalid key for address: Patio de Gale, Praça do Comércio, Lisbon, Portugal
+Request URL: https://search-maps.yandex.ru/v1
+Request Params: {'apikey': '99d471d5-cb8f-4d4e-b915-6fb3717e217bInvalid123', 'text': 'Patio de Gale, Praça do Comércio, Lisbon, Portugal', 'lang': 'ru_RU', 'type': 'geo', 'results': '1'}
+Response Status Code: 403
+Response Content: {"statusCode":403,"error":"Forbidden","message":"Invalid api key"}
+

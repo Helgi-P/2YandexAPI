@@ -1,0 +1,3 @@
+Geocode API Coordinates for СПб ПарашУтная ул 65 стр 1: 30.250623, 60.037674
+Geosearch API Coordinates for СПб ПарашУтная ул 65 стр 1: 30.250623, 60.037674
+Coordinates match for СПб ПарашУтная ул 65 стр 1: Geocode API (30.250623, 60.037674),                 Geosearch API (30.250623, 60.037674)

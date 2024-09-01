@@ -1,0 +1,13 @@
+
+Testing Geocode API with valid key for address: Patio de Gale, Praça do Comércio, Lisbon, Portugal
+Request URL: https://geocode-maps.yandex.ru/1.x
+Request Params: {'apikey': 'b6406238-38e9-4bc0-ac07-5bca9de0e327', 'geocode': 'Patio de Gale, Praça do Comércio, Lisbon, Portugal', 'format': 'json'}
+Response Status Code: 200
+Response Content: {"response":{"GeoObjectCollection":{"metaDataProperty":{"GeocoderResponseMetaData":{"request":"Patio de Gale, Praça do Comércio, Lisbon, Portugal","results":"10","found":"1"}},"featureMember":[{"GeoObject":{"metaDataProperty":{"GeocoderMetaData":{"precision":"street","text":"Португалия, Лиссабон, приход Санта-Мария-Майор, Торговая площадь","kind":"street","Address":{"country_code":"PT","formatted":"Португалия, Лиссабон, приход Санта-Мария-Майор, Торговая площадь","Components":[{"kind":"country","name":"Португалия"},{"kind":"province","name":"Лиссабон"},{"kind":"area","name":"Лиссабон"},{"kind":"district","name":"приход Санта-Мария-Майор"},{"kind":"street","name":"Торговая площадь"}]},"AddressDetails":{"Country":{"AddressLine":"Португалия, Лиссабон, приход Санта-Мария-Майор, Торговая площадь","CountryNameCode":"PT","CountryName":"Португалия","AdministrativeArea":{"AdministrativeAreaName":"Лиссабон","SubAdministrativeArea":{"SubAdministrativeAreaName":"Лиссабон","Locality":{"DependentLocality":{"DependentLocalityName":"приход Санта-Мария-Майор","Thoroughfare":{"ThoroughfareName":"Торговая площадь"}}}}}}}}},"name":"Торговая площадь","description":"приход Санта-Мария-Майор, Лиссабон, Португалия","boundedBy":{"Envelope":{"lowerCorner":"-9.137456 38.70675","upperCorner":"-9.135462 38.708348"}},"uri":"ymapsbm1://geo?data=CgoxNTIwNjM5Nzg3EkJQb3J0dWdhbCwgTGlzYm9hLCBGcmVndWVzaWEgU2FudGEgTWFyaWEgTWFpb3IsIFByYcOnYSBkbyBDb23DqXJjaW8iCg3wLhLBFYjUGkI,","Point":{"pos":"-9.136459 38.707553"}}}]}}}
+
+Testing Geocode API with invalid key for address: Patio de Gale, Praça do Comércio, Lisbon, Portugal
+Request URL: https://geocode-maps.yandex.ru/1.x
+Request Params: {'apikey': 'b6406238-38e9-4bc0-ac07-5bca9de0e327Invalid123', 'geocode': 'Patio de Gale, Praça do Comércio, Lisbon, Portugal', 'format': 'json'}
+Response Status Code: 403
+Response Content: {"statusCode":403,"error":"Forbidden","message":"Invalid api key"}
+
