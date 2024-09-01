@@ -1,0 +1,13 @@
+
+Testing Geosearch API with valid key for address: Санкт-Петербург, Пулковское шоссе, дом 36, корпус 4
+Request URL: https://search-maps.yandex.ru/v1
+Request Params: {'apikey': '99d471d5-cb8f-4d4e-b915-6fb3717e217b', 'text': 'Санкт-Петербург, Пулковское шоссе, дом 36, корпус 4', 'lang': 'ru_RU', 'type': 'geo', 'results': '1'}
+Response Status Code: 200
+Response Content: {"type":"FeatureCollection","properties":{"ResponseMetaData":{"SearchResponse":{"found":1,"display":"single","boundedBy":[[30.323477,59.819418],[30.331687,59.823552]]},"SearchRequest":{"request":"Санкт-Петербург, Пулковское шоссе, дом 36, корпус 4","skip":0,"results":1,"boundedBy":[[37.048427,55.43644866],[38.175903,56.04690174]]}}},"features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[30.327582,59.821485]},"properties":{"name":"Пулковское шоссе, 36к4","description":"Санкт-Петербург, Россия","boundedBy":[[30.323477,59.819418],[30.331687,59.823552]],"uri":"ymapsbm1://geo?data=Cgg1NzQ3MzM0MRJT0KDQvtGB0YHQuNGPLCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0J_Rg9C70LrQvtCy0YHQutC-0LUg0YjQvtGB0YHQtSwgMzbQujQiCg3invJBFTNJb0I,","GeocoderMetaData":{"precision":"exact","text":"Россия, Санкт-Петербург, Пулковское шоссе, 36к4","kind":"house"}}}]}
+
+Testing Geosearch API with invalid key for address: Санкт-Петербург, Пулковское шоссе, дом 36, корпус 4
+Request URL: https://search-maps.yandex.ru/v1
+Request Params: {'apikey': '99d471d5-cb8f-4d4e-b915-6fb3717e217bInvalid123', 'text': 'Санкт-Петербург, Пулковское шоссе, дом 36, корпус 4', 'lang': 'ru_RU', 'type': 'geo', 'results': '1'}
+Response Status Code: 403
+Response Content: {"statusCode":403,"error":"Forbidden","message":"Invalid api key"}
+

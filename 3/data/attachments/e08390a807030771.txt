@@ -1,0 +1,3 @@
+Coordinates of landmark 'London, Big Ben': -134.939083, 69.409153
+Geosearch API Response for landmark 'London, Big Ben': {'type': 'FeatureCollection', 'properties': {'ResponseMetaData': {'SearchResponse': {'found': 0, 'display': 'multiple', 'boundedBy': [[-135.388633, 68.95490126], [-134.489533, 69.85400158]]}, 'SearchRequest': {'request': 'pharmacy', 'skip': 0, 'results': 2, 'boundedBy': [[-135.389083, 68.95444184], [-134.489083, 69.85444217]]}}}, 'features': []}
+ERROR: NO RESULTS FOUND in geosearch response for landmark 'London, Big Ben'

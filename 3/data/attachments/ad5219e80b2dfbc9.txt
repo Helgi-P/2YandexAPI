@@ -1,0 +1,3 @@
+Geocode API Coordinates for ул. Бравых Гедонистов 6666, London, Greate Britain: -0.080893, 51.524726
+Geosearch API Coordinates for ул. Бравых Гедонистов 6666, London, Greate Britain: -0.080893, 51.524726
+Coordinates match for ул. Бравых Гедонистов 6666, London, Greate Britain: Geocode API (-0.080893, 51.524726),                 Geosearch API (-0.080893, 51.524726)

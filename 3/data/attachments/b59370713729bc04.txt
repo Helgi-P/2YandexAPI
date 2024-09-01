@@ -1,0 +1,3 @@
+Geocode API Coordinates for СПб, Мавзолей: 30.314494, 59.938676
+Geosearch API Coordinates for СПб, Мавзолей: 30.314494, 59.938676
+Coordinates match for СПб, Мавзолей: Geocode API (30.314494, 59.938676),                 Geosearch API (30.314494, 59.938676)
